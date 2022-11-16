@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap');
+body {
+    background:rgb(84, 79, 227);
+    font-family: 'Great Vibes', cursive;
+    height:100%;
+    }
+    
+    .wrapper {
+    width: 65vw;
+    height: 32vh;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(40, 87, 230);
+    text-align:center;
+    background-image: radial-gradient(circle,rgb(136, 184, 240),rgb(56, 109, 224));
+    border-radius: 30px;
+    border: solid 5px rgb(98, 133, 245);
+    box-shadow: 0 0 34px 0 rgb(30, 27, 110);
+  }
+  .wrapper2 {
+    width: 65vw;
+    height: 32vh;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    background-image: radial-gradient(circle,rgb(115, 7, 16 ),rgb(191, 17, 32));
+    border-radius: 30px;
+    border: solid 5px rgb(192, 26, 40);
+    box-shadow: 0 0 34px 0 rgb(131, 11, 11);
+  }
+
+  .wrapper3 {
+    width: 65vw;
+    height: 32vh;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(90, 13, 77);
+    text-align:center;
+    background-image: radial-gradient(circle,rgb(235, 137, 230),rgb(221, 59, 226));
+    border-radius: 30px;
+    border: solid 5px rgb(88, 8, 8);
+    box-shadow: 0 0 40px 0 rgb(255, 0, 255);
+  }
+    
+    h1, h2, h3 {
+      font-family: 'Pacifico', cursive;
+      font-weight: 100;
+      font-size: 3.6vh;
+    }
+    
+    #seconds, #tens{
+      font-size:2em;
+    }
+    .cronometro{
+    background:rgb(84, 79, 227);
+    color:rgb(230, 198, 252);
+    border: solid 2px rgb(85, 14, 238);
+    border-radius: 15px;
+    height: 7vh;
+    width: 17vw;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    box-shadow: 0 0 34px 0 #0421a3;
+    cursor: crosshair;
+    }
+    .bt-tab{
+      border-radius: 50%;
+      height: 7vw;
+      width: 7vw;
+      background-color: rgb(129, 11, 11);
+      margin: 5px;
+      cursor: pointer;
+    }
+    .bt-tab2{
+      border-radius: 50%;
+      height: 7vw;
+      width: 7vw;
+      background-color: rgb(230, 81, 210);
+      margin: 5px;
+      cursor: pointer;
+    }
+    .bt-tab3{
+      border-radius: 50%;
+      height: 7vw;
+      width: 7vw;
+      background-color: rgb(39, 116, 105);
+      margin: 5px;
+      cursor: pointer;
+    }
+    .tab{
+      width: 30vw;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color:rgb(59, 106, 248);
+      text-align:center;
+      background-image: radial-gradient(circle,rgb(158, 201, 250),rgb(70, 148, 236));
+      border-radius: 30px;
+      display: grid;
+      justify-content: center;
+      border: solid 5px rgb(98, 133, 245);
+      align-content: space-between;
+    }
+
+.dark{
+  background-color: rgb(225, 100, 230);
+}
+
+.dark2{
+  background-color: rgb(56, 6, 6);
+}
+
+    
+    
+    
+    
+    
+    
+    

@@ -258,7 +258,7 @@ body.dark .mode .sun-moon i.moon{
     cursor: pointer;
 }
 .toggle-switch .switch{
-    position: absolute;
+    position: relative;
     height: 22px;
     width: 40px;
     border-radius: 25px;
@@ -268,7 +268,7 @@ body.dark .mode .sun-moon i.moon{
 
 .switch::before{
     content: '';
-    position: relative;
+    position: absolute;
     height: 15px;
     width: 15px;
     border-radius: 50%;

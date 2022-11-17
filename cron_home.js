@@ -64,8 +64,8 @@ function timer() {
 function oi2(){
     document.getElementById("agr").classList.remove('wrapper','wrapper2')
     document.getElementById("agr").classList.add("wrapper3")
-    document.body.classList.add('dark')
-    document.body.classList.remove('dark2')
+    document.body.classList.add('darki')
+    document.body.classList.remove('darki2')
 }
 
 
@@ -73,8 +73,8 @@ function oi2(){
 function oi(){
 document.getElementById("agr").classList.remove('wrapper','wrapper3')
 document.getElementById("agr").classList.add("wrapper2")
-document.body.classList.add('dark2')
-document.body.classList.remove('dark')
+document.body.classList.add('darki2')
+document.body.classList.remove('darki')
 }
 var ballw = document.getElementById("a")
 ballw.addEventListener("click",oi)

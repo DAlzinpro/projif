@@ -210,6 +210,14 @@ body.dark .sidebar li a:hover .text{
     color: var(--text-color);
 }
 
+.quadrado{
+    box-shadow: 0 0 7px 0px rgba(0,0,0,0.2);
+    background: #FFF;
+    padding: 0 0 30px;
+    position: relative;
+    top: -70px;
+}
+
 .sidebar .menu-bar{
     height: calc(100% - 55px);
     display: flex;

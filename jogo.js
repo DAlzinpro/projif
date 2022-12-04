@@ -37,6 +37,7 @@ function bah(){
     }
     if (res == "22"){
         var respo = document.getElementById("reposta4").innerHTML = num2
+        const res = document.getElementById("chute").value = ""
     }
     }
     document.addEventListener("keypress", function(e) {

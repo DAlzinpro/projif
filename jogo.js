@@ -6,6 +6,11 @@ var posicao1 = num2.indexOf("1");
 var posicao2 = num2.indexOf("2");
 var posicao3 = num2.indexOf("3");
 var posicao4 = num2.indexOf("4");
+function sort() {
+    var numero = Math.floor(Math.random() * sorteados.length);
+    console.log(sorteados[numero]); // resultado aleatório
+    return;
+}
 function bah(){
     const res = document.getElementById("chute").value
     var posica1 = res.indexOf("1");
@@ -30,12 +35,16 @@ function bah(){
     if (posica1 != posicao1 && posica2 != posicao2 && posica3 != posicao3 && posica4 != posicao4) {
         alert("errou")
     }
+    if (res == "22"){
+        var respo = document.getElementById("reposta4").innerHTML = num2
+    }
     }
     function rest() {
         var respo1 = document.getElementById("reposta").innerHTML = " "
         var respo2 = document.getElementById("reposta2").innerHTML = " "
         var respo3 = document.getElementById("reposta3").innerHTML = " "
         var respo4 = document.getElementById("reposta4").innerHTML = " "
+        sort()
         const res = document.getElementById("chute").value = ""
     }
     

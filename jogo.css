@@ -186,10 +186,10 @@ body,html{
       box-shadow: 0 0 20px 0 rgb(224, 8, 134);
       background-image: linear-gradient( #fcdf11, #ff623f, #fe2085);
       width: 70vw;
-      height: 18vw;
+      height: 16vw;
       margin-left: auto;
       margin-right: auto;
-      bottom: -15px;
+      bottom: -9px;
       position: relative;
       color: black;
       font-family: 'Zen Dots', cursive;
@@ -210,7 +210,7 @@ body,html{
     padding: 0px;
     font-size: 2vw;
     border-radius: 6px;
-    width: 21.8vw;
+    width: 21.2vw;
     height: 3.1vw;
     outline: none;
     text-align: center;
@@ -219,9 +219,12 @@ body,html{
     cursor: cell;
     color: #fe2085;
     font-family: 'Zen Dots', cursive;
+    margin-left: 4px;
   }
   .tab{
-    background-color: rgba(0, 0, 0, 0.459);
+    background-color: rgba(0, 0, 0, 0.521);
     color: white;
-    font-size: 3vw;
+    font-size: 1.5vw;
+    margin-top: 8vw;
+    bottom: -8vw;
   }

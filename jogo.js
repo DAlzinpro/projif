@@ -39,6 +39,15 @@ function bah(){
         var respo = document.getElementById("reposta4").innerHTML = num2
     }
     }
+    document.addEventListener("keypress", function(e) {
+        if(e.key === 'Enter') {
+        
+            var btn = document.querySelector("#submit");
+          
+          btn.click();
+        
+        }
+      });
     function rest() {
         var respo1 = document.getElementById("reposta").innerHTML = " "
         var respo2 = document.getElementById("reposta2").innerHTML = " "
@@ -47,4 +56,3 @@ function bah(){
         sort()
         const res = document.getElementById("chute").value = ""
     }
-    

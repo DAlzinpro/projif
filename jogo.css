@@ -187,13 +187,16 @@ body,html{
       box-shadow: 0 0 20px 0 rgb(224, 8, 134);
       background-image: linear-gradient( #fcdf11, #ff623f, #fe2085);
       width: 70vw;
-      height: 15.2vw;
+      height: 14.5vw;
       margin-left: auto;
       margin-right: auto;
       bottom: -2px;
       position: relative;
       color: black;
       font-family: 'Zen Dots', cursive;
+      border: solid 6px rgb(0, 0, 0);
+      
+
   }
   .container{
     width: 100%;
@@ -221,10 +224,14 @@ body,html{
     color: #fe2085;
     font-family: 'Zen Dots', cursive;
     margin-left: 4px;
+
   }
   .tab{
     background-color: rgba(0, 0, 0, 0.521);
     color: white;
-    font-size: 1.15vw;
-    margin-top: 7.2vw;
+    font-size: 1.4vw;
+    margin-top: 6.7vw;
+  }
+  p{
+    margin: 2px;
   }

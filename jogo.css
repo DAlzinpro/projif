@@ -4,6 +4,7 @@ html,
 body {
   margin: 0;
   height: 100%;
+  cursor: cell;
 }
 
 /* ............................................................... */
@@ -186,7 +187,7 @@ body,html{
       box-shadow: 0 0 20px 0 rgb(224, 8, 134);
       background-image: linear-gradient( #fcdf11, #ff623f, #fe2085);
       width: 70vw;
-      height: 15.7vw;
+      height: 15.2vw;
       margin-left: auto;
       margin-right: auto;
       bottom: -2px;
@@ -224,6 +225,6 @@ body,html{
   .tab{
     background-color: rgba(0, 0, 0, 0.521);
     color: white;
-    font-size: 1.3vw;
-    margin-top: 7.7vw;
+    font-size: 1.15vw;
+    margin-top: 7.2vw;
   }

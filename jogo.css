@@ -186,7 +186,7 @@ body,html{
       box-shadow: 0 0 20px 0 rgb(224, 8, 134);
       background-image: linear-gradient( #fcdf11, #ff623f, #fe2085);
       width: 70vw;
-      height: 16vw;
+      height: 15.7vw;
       margin-left: auto;
       margin-right: auto;
       bottom: -9px;
@@ -203,7 +203,7 @@ body,html{
     margin: 0 0 5vw 0;
     bottom: -2vw;
     position: relative;
-    font-size: 3.2vw;
+    font-size: 3.1vw;
   }
   input{
     border: 0px;
@@ -225,6 +225,5 @@ body,html{
     background-color: rgba(0, 0, 0, 0.521);
     color: white;
     font-size: 1.3vw;
-    margin-top: 8vw;
-    bottom: -8vw;
+    margin-top: 7.7vw;
   }

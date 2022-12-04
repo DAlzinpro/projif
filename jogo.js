@@ -2,15 +2,17 @@ var sorteados = ["1234","1243","1324","1342","1432","1423","2134","2143","2314",
 var numero = Math.floor(Math.random() * sorteados.length);
 console.log(sorteados[numero]); // resultado aleatório
 var num2 = sorteados[numero]
-var posicao1 = num2.indexOf("1");
-var posicao2 = num2.indexOf("2");
-var posicao3 = num2.indexOf("3");
-var posicao4 = num2.indexOf("4");
-function sort() {
-    var numero = Math.floor(Math.random() * sorteados.length);
-    console.log(sorteados[numero]); // resultado aleatório
-    return;
-}
+function rest() {
+    var respo1 = document.getElementById("reposta").innerHTML = " "
+    var respo2 = document.getElementById("reposta2").innerHTML = " "
+    var respo3 = document.getElementById("reposta3").innerHTML = " "
+    var respo4 = document.getElementById("reposta4").innerHTML = " "
+    const res = document.getElementById("chute").value = ""
+    sort()   
+}   var posicao1 = num2.indexOf("1");
+    var posicao2 = num2.indexOf("2");
+    var posicao3 = num2.indexOf("3");
+    var posicao4 = num2.indexOf("4");
 function bah(){
     const res = document.getElementById("chute").value
     var posica1 = res.indexOf("1");
@@ -36,7 +38,6 @@ function bah(){
     if (res5 != "1234" && res5 != "1243" && res5 != "1324" && res5 != "1342" && res5 != "1432" && res5 != "1423" && res5 != "2134" && res5 != "2143" && res5 != "2314" && res5 != "2341" && res5 != "2431" && res5 != "2413" && res5 != "3124" && res5 != "3142" && res5 != "3214" && res5 != "3241" && res5 != "3421" && res5 != "3412" && res5 != "4132" && res5 != "4123" && res5 != "4213" && res5 != "4231" && res5 != "4321" && res5 != "4312" && res5 != "22"){
         alert("Erro!,apenas caracteres 1,2,3,4")
         const res = document.getElementById("chute").value = ""
-        return;
     }
     if (posica1 != posicao1 && posica2 != posicao2 && posica3 != posicao3 && posica4 != posicao4) {
         alert("errou")
@@ -57,11 +58,11 @@ function bah(){
         
         }
       });
-    function rest() {
-        var respo1 = document.getElementById("reposta").innerHTML = " "
-        var respo2 = document.getElementById("reposta2").innerHTML = " "
-        var respo3 = document.getElementById("reposta3").innerHTML = " "
-        var respo4 = document.getElementById("reposta4").innerHTML = " "
-        sort()
-        const res = document.getElementById("chute").value = ""
+      function sort() {
+        let numero2 = Math.floor(Math.random() * sorteados.length);
+        num2 = sorteados[numero2]
+        posicao1 = num2.indexOf("1");
+        posicao2 = num2.indexOf("2");
+        posicao3 = num2.indexOf("3");
+        posicao4 = num2.indexOf("4");
     }

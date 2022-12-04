@@ -32,13 +32,21 @@ function bah(){
     if(posica4 == posicao4){
         var respo = document.getElementById("reposta4").innerHTML = "acertou o numero 4!"
     }
+    const res5 = document.getElementById("chute").value
+    if (res5 != "1234" && res5 != "1243" && res5 != "1324" && res5 != "1342" && res5 != "1432" && res5 != "1423" && res5 != "2134" && res5 != "2143" && res5 != "2314" && res5 != "2341" && res5 != "2431" && res5 != "2413" && res5 != "3124" && res5 != "3142" && res5 != "3214" && res5 != "3241" && res5 != "3421" && res5 != "3412" && res5 != "4132" && res5 != "4123" && res5 != "4213" && res5 != "4231" && res5 != "4321" && res5 != "4312" && res5 != "22"){
+        alert("Erro!,apenas caracteres 1,2,3,4")
+        const res = document.getElementById("chute").value = ""
+        return;
+    }
     if (posica1 != posicao1 && posica2 != posicao2 && posica3 != posicao3 && posica4 != posicao4) {
         alert("errou")
     }
     if (res == "22"){
-        var respo = document.getElementById("reposta4").innerHTML = num2
         const res = document.getElementById("chute").value = ""
+        var respo = document.getElementById("reposta4").innerHTML = num2
     }
+    
+    
     }
     document.addEventListener("keypress", function(e) {
         if(e.key === 'Enter') {

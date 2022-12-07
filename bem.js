@@ -4,7 +4,11 @@ function sub() {
 
     if (check2.checked == true){
         window.open("https://dalzinpro.github.io/projif/jogo.html")
-    }else{
-        alert("nd")
+    }if (check1.checked == true){
+        window.open("https://dalzinpro.github.io/projif/dif.html")
+    }
+        }if (check1.checked == true && check2.checked == true){
+        window.open("https://dalzinpro.github.io/projif/dif.html")
+        window.open("https://dalzinpro.github.io/projif/jogo.html")
     }
 }

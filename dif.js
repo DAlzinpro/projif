@@ -49,6 +49,7 @@ function bah(){
     }
     if (q == 4) {
         alert("Parabens Voce ganhou")
+        rest();
     }
     var respo = document.getElementById("reposta4").innerHTML = "Você acertou " + q + " Numeros"
     }
